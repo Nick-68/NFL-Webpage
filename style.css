@@ -1,0 +1,14 @@
+header {
+  background-color: lightblue;
+  height: 100px;
+}
+
+main {
+  min-height: 1650px;
+  background: lightgrey;
+}
+
+footer {
+  background-color: lightgreen;
+  height: 50px;
+}
