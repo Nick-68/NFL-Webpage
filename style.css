@@ -7,12 +7,13 @@ html {
 }
 body {
   margin: 0;
+  
 }
 header {
-  background-color: lightblue;
+  background-color: #013369;
   position: sticky;
   top: 0;
-  height: 100px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -30,7 +31,10 @@ h2 {
   list-style: none;
   border: green dashed;
 }
-
+.navbar a{
+  text-decoration: none;
+  color: whitesmoke;
+}
 #leftbar,
 #rightbar {
   flex-grow: 1;
@@ -40,13 +44,34 @@ h2 {
 #rightbar {
   justify-content: flex-end;
 }
-
+li{
+  padding: 5px;
+  margin-right: 25px;
+}
 main {
   min-height: 1650px;
   background: lightgrey;
+  width: 80%;
+  
 }
 
 footer {
   background-color: lightgreen;
   height: 50px;
+}
+
+section {
+  border: solid black 5px;
+}
+#firstBlock{
+  height: 500px;
+  width: 400px;
+}
+#secondBlock{
+  height: 300px;
+  width: 200px;
+}
+#thirdBlock{
+  height: 200px;
+  width: 200px;
 }
